@@ -9,14 +9,14 @@ do
     read OPCAO
     case $OPCAO in
         1)
-            cd matriz_dinamica
+            cd ./matriz_dinamica
             make
             make run
             make clean
             cd ..
             ;;
         2)
-            cd matriz_dinamica_vetor
+            cd ./matriz_dinamica_vetor
             make
             make run
             make clean

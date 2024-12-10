@@ -1,10 +1,11 @@
 TARGET = main
+SRC = main.c matriz.c
 CC = gcc
 RM = rm -rf
 
 all:
-	$(CC) main.c funcoes.c -o $(TARGET)
+	$(CC) $(SRC) -o $(TARGET)
 run:
-	./main
+	./$(TARGET)
 clean:
-	$(RM) main
+	$(RM) $(TARGET)

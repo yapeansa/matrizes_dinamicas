@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "matriz.h"
 
 void preenche(int m, int n, float **mat)
 {
